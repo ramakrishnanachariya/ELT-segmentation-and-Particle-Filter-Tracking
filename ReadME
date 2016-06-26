@@ -1,0 +1,24 @@
+
+	Actually i try to implement this two paper work
+	------------------------------------------------ 
+1.Simple face detection and bitmasking with other imageMoving Object Segmentation using Enhanced
+Laplacian Thresholding Method for Video Surveillance
+
+2.Specified Object Tracking Problem in an Environment of Multiple Moving(Particle Filter)
+	
+S/W  Requirement 
+=================
+OpenCV 2.4.9
+	
+
+How to execute the program
+==========================
+goto src floder , then
+
+important 
+*********
+1.blob based object detect u can adjust blob size based on ur video 
+2.while running this program this mark ur object to track using mouse click
+
+g++ *.cpp -o Particle_Filter `pkg-config --cflags --libs opencv`
+./Particle_Filter
